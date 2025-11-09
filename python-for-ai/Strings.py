@@ -19,3 +19,27 @@ print(len(empty))
 age=25
 msg="my age is "
 print(msg + str(age))
+
+name="maduja"
+uni = "UWU"
+print(f"My name is {name} and my university is {uni}")
+
+#string methods
+name = "               maduja verjini"
+print(name.lower())
+print(name.upper())
+print(name.title())
+print(name.strip())
+
+#finding 
+text = "I love Python programming with Python"
+print("Python" in text)
+print(text.startswith("l"))
+print(text.startswith("I"))
+print(text.endswith("n"))
+
+print(text.find("love"))
+print(text.count("Python"))
+
+new_msg = text.replace("Python","Java")
+print(new_msg)
