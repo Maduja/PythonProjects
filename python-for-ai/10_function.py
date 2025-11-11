@@ -41,3 +41,31 @@ create_profile("Alice", 25, "NYC")
 # Keyword arguments (order doesn't matter)
 create_profile(city="NYC", age=25, name="Alice")
 create_profile(name="Bob", city="LA", age=30)
+
+
+
+def sum(a,b):
+    print(a+b)
+
+sum(12,34)
+
+
+#return
+def sum_return(a,b):
+    return a+b
+
+
+total=sum_return(3,2)
+print(total)
+
+print(f"total is {sum_return(3,6)}")
+
+
+#multiple return
+def get_min_max(numbers):
+    return min(numbers), max(numbers)
+
+
+minimum,maximum = get_min_max([3,5,6,4,2,1,6,9,1])
+print(minimum)
+print(maximum)
