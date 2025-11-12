@@ -4,7 +4,7 @@ def risky_operation():
 try:
     # Code that might cause an error
     risky_operation()
-except:
+except:  # noqa: E722
     # Code that runs if there's an error
     print("Something went wrong")
 
@@ -14,7 +14,7 @@ except:
 try:
     age = int(input("Enter your age: "))
     print(f"In 10 years, you'll be {age + 10}")
-except:
+except:  # noqa: E722
     print("Please enter a number")
 
 #------------------------------------------------------
