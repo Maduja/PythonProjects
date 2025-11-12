@@ -1,3 +1,6 @@
+def risky_operation():
+    print("risky")
+
 try:
     # Code that might cause an error
     risky_operation()
